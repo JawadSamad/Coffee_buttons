@@ -1,8 +1,6 @@
 .container1{
     position: absolute;
-    float: inherit;
     top: 300px;
-    left: 40px;
+    left: 30px;
     margin: auto;
-    text-align: center;
 }

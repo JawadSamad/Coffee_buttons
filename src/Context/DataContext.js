@@ -4,7 +4,7 @@ const DataContext = React.createContext({
     active: false,
     sugar: true,
     milk: true,
-    chocolate: false,
+    chocolate: true,
     value: 0
 });
 
