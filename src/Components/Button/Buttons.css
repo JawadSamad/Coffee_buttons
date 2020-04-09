@@ -1,0 +1,123 @@
+.Buttons {
+    alignment: center;
+}
+
+.Americano:disabled {
+    cursor: not-allowed;
+}
+
+.Americano {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 130px;
+    Height: 100px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.Cappucino:disabled {
+    cursor: not-allowed;
+}
+
+.Cappucino{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    width: 130px;
+    Height: 100px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.Wiener-Melage:disabled {
+    cursor: not-allowed;
+}
+
+.Wiener-Melage {
+    position: absolute;
+    top: 10px;
+    left: 305px;
+    width: 130px;
+    Height: 100px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.Chocolade:disabled {
+    cursor: not-allowed;
+}
+
+.Chocolade {
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    width: 130px;
+    Height: 100px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.Zwarte-Thee:disabled {
+    cursor: not-allowed;
+}
+
+.Zwarte-Thee {
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    width: 130px;
+    Height: 100px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.Earl-Gray:disabled {
+    cursor: not-allowed;
+}
+
+.Earl-Gray {
+    position: absolute;
+    top: 130px;
+    left: 305px;
+    width: 130px;
+    Height: 100px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}

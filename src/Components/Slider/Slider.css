@@ -1,0 +1,12 @@
+.SuikerOfMelk {
+    font-size: 11px;
+}
+
+.container{
+    position: relative;
+    float: left;
+    top: 250px;
+    left: 15px;
+    margin: 0 25px;
+}
+

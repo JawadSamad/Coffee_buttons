@@ -1,0 +1,8 @@
+.container1{
+    position: absolute;
+    float: inherit;
+    top: 300px;
+    left: 40px;
+    margin: auto;
+    text-align: center;
+}
