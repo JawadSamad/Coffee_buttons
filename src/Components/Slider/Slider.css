@@ -2,11 +2,18 @@
     font-size: 11px;
 }
 
-.container{
-    position: relative;
+.Suiker{
+    position: absolute;
     float: left;
-    top: 250px;
-    left: 5px;
+    top: 445px;
+    left: 540px;
     margin: 0 25px;
 }
 
+.Melk {
+    position: absolute;
+    float: left;
+    top: 445px;
+    left: 770px;
+    margin: 0 25px;
+}

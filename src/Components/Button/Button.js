@@ -1,25 +1,10 @@
 import React from "react";
-import './Buttons.css';
+import "./Buttons.css";
 
-const Button = ({ clicked, name, disabled }) => {
-
-    //const dataContext = useContext(DataContext);
-    //let active = dataContext.active;
-
-    // let [attributes, setAttributes] = useState(active = disabled);
-    //
-    // //Created an method which disables the button, with the setState value
-    // const disableButton = () => {
-    //     setAttributes(active = false)
-    // };
-    //
-    // //Created an method which disables buttons for 7 seconds and reactivated the button through the setState method.
-    // const setTimeHandler = () => {
-    //     setTimeout(disableButton, 7000);
-    //     setAttributes(active = true)};
+const Button = ({ clicked, name, disabled, children }) => {
 
     const handleClick = () =>  {
-        clicked(name);
+        clicked(children);
     };
 
     return (
@@ -28,7 +13,7 @@ const Button = ({ clicked, name, disabled }) => {
                 className={name}
                 onClick={handleClick}
                 disabled={disabled}>
-                {name}
+                {children}
             </button>
         </div>
     )

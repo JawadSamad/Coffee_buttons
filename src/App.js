@@ -4,52 +4,55 @@ import Button from "./Components/Button/Button";
 import Statusbar from "./Components/Statusbar/Statusbar";
 import Slider from "./Components/Slider/Slider";
 import DataContext from "./Context/DataContext";
+import Error from "./Components/Error/Error";
+import ErrorMessage from "./Context/ErrorMessage";
+import backgroundImage from "./Image/rect3717.png"
 
 const App = () => {
 
     const dataContext = useContext(DataContext);
+    const errorMessage = useContext(ErrorMessage);
 
     //Setting useState values of my Statusbar + Button component
     let [getDrinks, setValueDrinks] = useState("Maak uw keuze");
-    const prepared = (nameValue) => {
-        setTimeHandler();
-        setValueDrinks(nameValue + " wordt voorbereid, even geduld aub...");
-        setTimeout(() => setValueDrinks(nameValue + " is klaar!"), 6000);
-        setTimeout(() => setValueDrinks("Maak uw keuze"), 8000);
-    };
 
     // eslint-disable-next-line no-unused-vars
     let active;
     let [attributes, setAttributes] = useState(active = dataContext.active);
 
-    //Created an method which disables buttons for 7 seconds and reactivated the button through the setState method.
-    const setTimeHandler = () => {
+    const prepared = (nameValue) => {
         setTimeout(() => {setAttributes(active = false)}, 7000);
-        setAttributes(active = true)
+        setAttributes(active = true);
+        setValueDrinks(nameValue + " wordt voorbereid, even geduld aub...");
+        setTimeout(() => setValueDrinks(nameValue + " is klaar!"), 6000);
+        setTimeout(() => setValueDrinks("Maak uw keuze"), 8000);
     };
 
     return(
         <div>
+            <img src={backgroundImage} alt="CoffeeMock.js"/>
             <div>
-                <Button disabled={attributes} clicked={prepared} name={"Americano"}/>
+                <Button disabled={attributes} clicked={prepared} name={"Americano"}>Americano</Button>
                 {dataContext.sugar && dataContext.milk ?
-                <Button disabled={attributes} clicked={prepared} name={"Cappucino"}/>
-                : <Button clicked={() => {}} disabled={true} name={"Cappucino"}/>}
+                <Button disabled={attributes} clicked={prepared} name={"Cappucino"}>Cappucino</Button>
+                    : <Button clicked={() => {}} disabled={true} name={"Cappucino"}>Cappucino</Button>}
                 {dataContext.chocolate ?
                     <div>
-                        <Button disabled={attributes} clicked={prepared} name={"Wiener-Melage"}/>
-                        <Button disabled={attributes} clicked={prepared} name={"Chocolade"}/>
+                        <Button disabled={attributes} clicked={prepared} name={"Wiener-Melage"}>Wiener Melage</Button>
+                        <Button disabled={attributes} clicked={prepared} name={"Chocolade"}>Chocomel</Button>
                     </div> :
                     <div>
-                        <Button clicked={() => {}} disabled={true} name={"Wiener-Melage"}/>
-                        <Button clicked={() => {}} disabled={true} name={"Chocolade"}/>
+                        <Button clicked={() => {}} disabled={true} name={"Wiener-Melage"}>Wiener Melage</Button>
+                        <Button clicked={() => {}} disabled={true} name={"Chocolade"}>Chocolade</Button>
                     </div>}
-                <Button disabled={attributes} clicked={prepared} name={"Zwarte-Thee"}/>
-                <Button disabled={attributes} clicked={prepared} name={"Earl-Gray"}/>
+                <Button disabled={attributes} clicked={prepared} name={"Zwarte-Thee"}>Zwarte Thee</Button>
+                <Button disabled={attributes} clicked={prepared} name={"Earl-Gray"}>Earl Gray</Button>
+                <Statusbar name={getDrinks}/>
+                { dataContext.sugar ? <Slider name={"Suiker"}/> : <Slider disabled={true} name={"Suiker is helaas op! Vul het aub aan."}/>}
+                { dataContext.milk ? <Slider name={"Melk"}/> : <Slider disabled={true} name={"Melk is helaas op! Vul het aub aan."}/>}
+                {/*Pass here the error message which you want to display*/}
+                {/*<Error error={errorMessage.code3}/>*/}
             </div>
-            <Statusbar name={getDrinks}/>
-            { dataContext.sugar ? <Slider name={"Suiker"}/> : <Slider disabled={true} name={"Suiker is helaas op! Vul het aub aan."}/>}
-            { dataContext.milk ? <Slider name={"Melk"}/> : <Slider disabled={true} name={"Melk is helaas op! Vul het aub aan."}/>}
         </div>
     )
 };

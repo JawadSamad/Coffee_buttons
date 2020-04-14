@@ -10,18 +10,18 @@ const Slider = ({ name, disabled }) => {
 
     let [currentValue, setValue] = useState(value = dataContext.value);
 
+    //Created an handleOnChange method which takes in an event and changes the state to where the mouse stops clicking
+    const handleOnChange = (e) => {
+        setValue(value = e.target.value);
+        setTimeout(setValueBack, 8000);
+    };
+
     const setValueBack = () => {
         setValue(value = 0)
     };
 
-    //Created an handleOnChange method which takes in an event and changes the state to where the mouse stops clicking
-    const handleOnChange = (e) => {
-        setValue(value = e.target.value);
-        setTimeout(setValueBack, 10000);
-    };
-
         return (
-            <div className="container">
+            <div className={name}>
                 <h1 className="SuikerOfMelk">{name}</h1>
                 <input
                     type="range"
