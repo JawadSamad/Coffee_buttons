@@ -4,7 +4,7 @@
 
 .Americano:disabled {
     cursor: not-allowed;
-    background-color: salmon;
+    background-color: gray;
 }
 
 .Americano {
@@ -13,7 +13,8 @@
     left: 560px;
     width: 130px;
     Height: 100px;
-    background-color: grey;
+    background-color: #383633;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border: none;
     color: white;
     text-align: center;
@@ -25,7 +26,7 @@
 
 .Cappucino:disabled {
     cursor: not-allowed;
-    background-color: salmon;
+    background-color: gray;
 }
 
 .Cappucino{
@@ -34,7 +35,8 @@
     left: 700px;
     width: 130px;
     Height: 100px;
-    background-color: grey;
+    background-color: #383633;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border: none;
     color: white;
     text-align: center;
@@ -46,7 +48,7 @@
 
 .Wiener-Melage:disabled {
     cursor: not-allowed;
-    background-color: salmon;
+    background-color: gray;
 }
 
 .Wiener-Melage {
@@ -55,7 +57,8 @@
     left: 840px;
     width: 130px;
     Height: 100px;
-    background-color: grey;
+    background-color: #383633;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border: none;
     color: white;
     text-align: center;
@@ -67,7 +70,7 @@
 
 .Chocolade:disabled {
     cursor: not-allowed;
-    background-color: salmon;
+    background-color: gray;
 }
 
 .Chocolade {
@@ -76,7 +79,8 @@
     left: 560px;
     width: 130px;
     Height: 100px;
-    background-color: grey;
+    background-color: #383633;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border: none;
     color: white;
     text-align: center;
@@ -88,7 +92,7 @@
 
 .Zwarte-Thee:disabled {
     cursor: not-allowed;
-    background-color: salmon;
+    background-color: gray;
 }
 
 .Zwarte-Thee {
@@ -97,7 +101,8 @@
     left: 700px;
     width: 130px;
     Height: 100px;
-    background-color: grey;
+    background-color: #383633;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border: none;
     color: white;
     text-align: center;
@@ -109,7 +114,7 @@
 
 .Earl-Gray:disabled {
     cursor: not-allowed;
-    background-color: salmon;
+    background-color: gray;
 }
 
 .Earl-Gray {
@@ -118,7 +123,8 @@
     left: 840px;
     width: 130px;
     Height: 100px;
-    background-color: grey;
+    background-color: #383633;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border: none;
     color: white;
     text-align: center;

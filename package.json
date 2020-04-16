@@ -1,5 +1,8 @@
 {
-  "name": "max_course",
+  "name": "coffee",
+  "jest": {
+    "verbose": true
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "react-script test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,6 +40,7 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-loader": "^3.0.3",
-    "eslint-plugin-react": "^7.19.0"
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^24.9.0"
   }
 }

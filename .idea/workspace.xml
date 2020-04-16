@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56bb3be-b0fe-4233-bdd3-a1241dc8287d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Error/Error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Error/Error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Statusbar/Statusbar.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Context/ErrorMessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image/rect3717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verantwoording React - Jawad Samad.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Button/Buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Button/Buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Statusbar/Statusbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Statusbar/Statusbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Statusbar/Statusbar.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Context/DataContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/DataContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +36,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -49,13 +43,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reacttest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../koffie_app/src/Samenstelling/SweetCoffeeMock.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\Jawad\WebstormProjects\React_Koffie_Opdracht\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -72,6 +66,19 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration name="Component gedoe" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/Components/Statusbar/Statusbar.test.js" />
+      <test-names>
+        <test-name value="Component gedoe" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -85,6 +92,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Component gedoe" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,7 +114,11 @@
       <workItem from="1586158298136" duration="145000" />
       <workItem from="1586267765426" duration="2015000" />
       <workItem from="1586421273184" duration="201000" />
-      <workItem from="1586421499727" duration="38463000" />
+      <workItem from="1586421499727" duration="39595000" />
+      <workItem from="1586867913228" duration="6835000" />
+      <workItem from="1586892370906" duration="6076000" />
+      <workItem from="1587050380929" duration="1654000" />
+      <workItem from="1587052143847" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;initial commit&quot;">
       <created>1585249267479</created>
@@ -125,11 +141,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586453366288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;second&quot;">
+      <created>1586866770456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586866770456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -141,6 +164,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -161,34 +185,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="27" key="#Statusbar.test.js/0.0.1280.680@0.0.1280.680" timestamp="1586860737534" />
-    <state x="402" y="131" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586421322130">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586882363406">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586421322130" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1586453365298">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586882363406" />
+    <state x="402" y="131" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586947600915">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586453365298" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586518132654">
+    <state x="402" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586947600915" />
+    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587052011576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586518132654" />
-    <state width="1259" height="143" key="GridCell.Tab.0.bottom" timestamp="1586863450544">
+    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1587052011576" />
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1586866769219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="143" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586863450544" />
-    <state width="1259" height="143" key="GridCell.Tab.0.center" timestamp="1586863450543">
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586866769219" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586947186534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="143" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586863450543" />
-    <state width="1259" height="143" key="GridCell.Tab.0.left" timestamp="1586863450543">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586947186534" />
+    <state width="1259" height="202" key="GridCell.Tab.0.bottom" timestamp="1587052036805">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="143" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586863450543" />
-    <state width="1259" height="143" key="GridCell.Tab.0.right" timestamp="1586863450543">
+    <state width="1259" height="202" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587052036805" />
+    <state width="1259" height="202" key="GridCell.Tab.0.center" timestamp="1587052036805">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="143" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586863450543" />
+    <state width="1259" height="202" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587052036805" />
+    <state width="1259" height="202" key="GridCell.Tab.0.left" timestamp="1587052036804">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="202" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587052036804" />
+    <state width="1259" height="202" key="GridCell.Tab.0.right" timestamp="1587052036805">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="202" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587052036805" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1586515200342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

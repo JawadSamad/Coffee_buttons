@@ -48,9 +48,9 @@ const App = () => {
                 <Button disabled={attributes} clicked={prepared} name={"Zwarte-Thee"}>Zwarte Thee</Button>
                 <Button disabled={attributes} clicked={prepared} name={"Earl-Gray"}>Earl Gray</Button>
                 <Statusbar name={getDrinks}/>
-                { dataContext.sugar ? <Slider name={"Suiker"}/> : <Slider disabled={true} name={"Suiker is helaas op! Vul het aub aan."}/>}
-                { dataContext.milk ? <Slider name={"Melk"}/> : <Slider disabled={true} name={"Melk is helaas op! Vul het aub aan."}/>}
-                {/*Pass here the error message which you want to display*/}
+                { dataContext.sugar ? <Slider name={"Suiker"} disabled={attributes}/> : <Slider disabled={true} name={"Suiker is helaas op! Vul het aub aan."}/>}
+                { dataContext.milk ? <Slider name={"Melk"} disabled={attributes}/> : <Slider disabled={true} name={"Melk is helaas op! Vul het aub aan."}/>}
+                {/*!!! Pass down below the error message(code1 - code2 or code3) which you want to display !!!*/}
                 {/*<Error error={errorMessage.code3}/>*/}
             </div>
         </div>
